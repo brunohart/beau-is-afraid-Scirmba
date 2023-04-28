@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    background: linear-gradient(#001f34, #02404f,#9f6d52, #ab4612);
+    color: #ffffff;
+    font-family: 'Cinzel', serif;
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px; 
+    text-shadow: 0px 1px 2px black; 
+}
+
+#beau{
+    background-image: url("https://staticg.sportskeeda.com/editor/2023/01/3a9d3-16734232021867-1920.jpg");
+    background-size: cover;
+    height: 150px; 
+    width: 250px;
+    border-radius: 30%;
+    border: 6px solid;
+    margin-bottom: 10px;
+}
+
+#beau:hover{
+    height: 300px;
+    width: 500px;
+    background-image: url("https://media.tenor.com/Bmd-cg2hz-4AAAAC/melanie-martinez-portals.gif");
+}
+
+#bday-age {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    color: #fea61b;
+    text-shadow: 0px 1px #ffffff;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-image: url("https://cdn.digg.com/submitted-links/1681229285-IhJsSyWvbk.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,q_60,w_645/06c491ee7c4efe0708e7a5138ae14f40.jpg");
+    background-size: cover;
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://i.cbc.ca/1.6817539.1682032836!/fileImage/httpImage/image.jpg_gen/derivatives/original_780/beau-is-afraid-nathan-lane.jpg");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/jtLnBd4_7VzrHQHBQTC75oY5ht0=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/24597010/NaymanBeauIsAfraid_A24_Getty_Ringer.jpg");
+    background-size: 500px;
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://live-production.wcms.abc-cdn.net.au/d4cd925a959284763c8c18a2b54bdd5c?impolicy=wcms_crop_resize&cropH=1621&cropW=2882&xPos=118&yPos=1&width=862&height=485");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
